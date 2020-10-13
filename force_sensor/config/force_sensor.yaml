@@ -1,0 +1,4 @@
+force_sensor:
+  ros_rate: 1
+
+# <param name="ros_rate" type="double" value="100.0" />

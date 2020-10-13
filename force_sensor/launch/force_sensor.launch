@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="force_sensor" type="force_sensor" name="force_sensor" output="screen">
+    <rosparam command="load" file="$(find force_sensor)/config/force_sensor.yaml" />
+  </node>
+</launch>
